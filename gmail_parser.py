@@ -4,7 +4,7 @@ This script uses Gmail API (OAuth) to search recent messages, detect application
 using simple heuristics, extract company/title/job-id, and write a CSV export.
 
 Instructions:
-  1. Create OAuth credentials (Desktop app) in Google Cloud Console -> download credentials.json
+  1. Create OAuth credentials (Desktop app) in Google Cloud Console -> download credentials.json (make sure to place credentials.json in the same directory as this script)
   2. pip install -r requirements_gmail.txt
   3. python gmail_parser.py
 
