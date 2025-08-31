@@ -1,0 +1,7 @@
+# Google OAuth credentials & tokens
+credentials.json
+token.pickle
+*.pickle
+*.db
+/.venv
+/venv
