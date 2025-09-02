@@ -7,3 +7,304 @@ text,label
 "Invoice for your purchase",0
 "Your submission has been received for the Role: ML Intern at FooBar",1
 "Company newsletter: new benefits",0
+"Application received (Ref: P001) for Software Engineering Intern at TechCorp. We will review your application.",1
+"Application received (Ref: P002) for Software Engineer at DevWorks. Thank you for applying — our team will review your materials.",1
+"Application received (Ref: P003) for Machine Learning Engineer at NextGen Labs. Your submission is now in our review queue.",1
+"Application received (Ref: P004) for Data Engineer at Cloudify. We have received your application.",1
+"Application received (Ref: P005) for Frontend Engineer at ByteLabs. Thank you — your application is under review.",1
+"Application received (Ref: P006) for Backend Engineer at NeuralNet. We will contact you if shortlisted.",1
+"Application received (Ref: P007) for Full Stack Engineer at AlgoSphere. Your materials have been received.",1
+"Application received (Ref: P008) for DevOps Engineer at DataWave. Thank you for your application.",1
+"Application received (Ref: P009) for Site Reliability Engineer at InfraTech. We will review your profile.",1
+"Application received (Ref: P010) for QA Engineer at AppForge. Your submission has been logged.",1
+"Application received (Ref: P011) for Mobile Engineer at NetSecure. We have received your application.",1
+"Application received (Ref: P012) for Embedded Engineer at Skyward. Thank you — we'll review your materials.",1
+"Application received (Ref: P013) for Cloud Engineer at TechCorp. Your application is in our system.",1
+"Application received (Ref: P014) for Software Engineering Intern at DevWorks. We appreciate your interest.",1
+"Application received (Ref: P015) for Software Engineer at NextGen Labs. Application received and queued for review.",1
+"Application received (Ref: P016) for Machine Learning Engineer at Cloudify. Thank you for applying.",1
+"Application received (Ref: P017) for Data Engineer at ByteLabs. We have recorded your submission.",1
+"Application received (Ref: P018) for Frontend Engineer at NeuralNet. Your application has been received.",1
+"Application received (Ref: P019) for Backend Engineer at AlgoSphere. Thank you — our hiring team will review.",1
+"Application received (Ref: P020) for Full Stack Engineer at DataWave. We have your materials.",1
+"Application received (Ref: P021) for DevOps Engineer at InfraTech. Your submission is in review.",1
+"Application received (Ref: P022) for Site Reliability Engineer at AppForge. We will follow up if shortlisted.",1
+"Application received (Ref: P023) for QA Engineer at NetSecure. Your application is received.",1
+"Application received (Ref: P024) for Mobile Engineer at Skyward. Thank you — we will review it.",1
+"Application received (Ref: P025) for Embedded Engineer at TechCorp. Your submission has been logged.",1
+"Application received (Ref: P026) for Cloud Engineer at DevWorks. We will be in touch if shortlisted.",1
+"Application received (Ref: P027) for Software Engineering Intern at NextGen Labs. Thanks for applying.",1
+"Application received (Ref: P028) for Software Engineer at Cloudify. We have received your application.",1
+"Application received (Ref: P029) for Machine Learning Engineer at ByteLabs. Your submission is under review.",1
+"Application received (Ref: P030) for Data Engineer at NeuralNet. Thank you for applying.",1
+"Application received (Ref: P031) for Frontend Engineer at AlgoSphere. Your application has been recorded.",1
+"Application received (Ref: P032) for Backend Engineer at DataWave. We will review your materials.",1
+"Application received (Ref: P033) for Full Stack Engineer at InfraTech. Thank you — received.",1
+"Application received (Ref: P034) for DevOps Engineer at AppForge. Your submission is in our system.",1
+"Application received (Ref: P035) for Site Reliability Engineer at NetSecure. We have your application.",1
+"Application received (Ref: P036) for QA Engineer at Skyward. Thanks — we'll review it shortly.",1
+"Application received (Ref: P037) for Mobile Engineer at TechCorp. Your application has been received.",1
+"Application received (Ref: P038) for Embedded Engineer at DevWorks. Thank you for submitting.",1
+"Application received (Ref: P039) for Cloud Engineer at NextGen Labs. We will review your profile.",1
+"Application received (Ref: P040) for Software Engineering Intern at Cloudify. Application received.",1
+"Application received (Ref: P041) for Software Engineer at ByteLabs. Your submission is now in review.",1
+"Application received (Ref: P042) for Machine Learning Engineer at NeuralNet. Thank you — we've logged your application.",1
+"Application received (Ref: P043) for Data Engineer at AlgoSphere. Your application has been received.",1
+"Application received (Ref: P044) for Frontend Engineer at DataWave. We will contact you with next steps.",1
+"Application received (Ref: P045) for Backend Engineer at InfraTech. Thanks for applying.",1
+"Application received (Ref: P046) for Full Stack Engineer at AppForge. Your submission is received.",1
+"Application received (Ref: P047) for DevOps Engineer at NetSecure. We will review your materials.",1
+"Application received (Ref: P048) for Site Reliability Engineer at Skyward. Thank you for applying.",1
+"Application received (Ref: P049) for QA Engineer at TechCorp. Your application is under review.",1
+"Application received (Ref: P050) for Mobile Engineer at DevWorks. We have received your submission.",1
+"Application received (Ref: P051) for Embedded Engineer at NextGen Labs. Your materials are in our queue.",1
+"Application received (Ref: P052) for Cloud Engineer at Cloudify. Thanks — we've logged your application.",1
+"Application received (Ref: P053) for Software Engineering Intern at ByteLabs. Your submission has been received.",1
+"Application received (Ref: P054) for Software Engineer at NeuralNet. We will review your profile.",1
+"Application received (Ref: P055) for Machine Learning Engineer at AlgoSphere. Thank you for applying.",1
+"Application received (Ref: P056) for Data Engineer at DataWave. Your application is in our system.",1
+"Application received (Ref: P057) for Frontend Engineer at InfraTech. Received — we'll be in touch.",1
+"Application received (Ref: P058) for Backend Engineer at AppForge. Your submission is logged.",1
+"Application received (Ref: P059) for Full Stack Engineer at NetSecure. We have your application.",1
+"Application received (Ref: P060) for DevOps Engineer at Skyward. Thank you — application received.",1
+"Application received (Ref: P061) for Site Reliability Engineer at TechCorp. Your materials are under review.",1
+"Application received (Ref: P062) for QA Engineer at DevWorks. We will follow up if shortlisted.",1
+"Application received (Ref: P063) for Mobile Engineer at NextGen Labs. Your application has been logged.",1
+"Application received (Ref: P064) for Embedded Engineer at Cloudify. Thanks for applying — received.",1
+"Application received (Ref: P065) for Cloud Engineer at ByteLabs. Your submission is under review.",1
+"Application received (Ref: P066) for Software Engineering Intern at NeuralNet. We will review your application.",1
+"Application received (Ref: P067) for Software Engineer at AlgoSphere. Your application has been received.",1
+"Application received (Ref: P068) for Machine Learning Engineer at DataWave. Thank you — we will review.",1
+"Application received (Ref: P069) for Data Engineer at InfraTech. Your submission is now in our queue.",1
+"Application received (Ref: P070) for Frontend Engineer at AppForge. We have your materials.",1
+"Application received (Ref: P071) for Backend Engineer at NetSecure. Application received — thank you.",1
+"Application received (Ref: P072) for Full Stack Engineer at Skyward. Your application is recorded.",1
+"Application received (Ref: P073) for DevOps Engineer at TechCorp. We will review your qualifications.",1
+"Application received (Ref: P074) for Site Reliability Engineer at DevWorks. Thank you for submitting.",1
+"Application received (Ref: P075) for QA Engineer at NextGen Labs. Your application has been received.",1
+"Application received (Ref: P076) for Mobile Engineer at Cloudify. We will review your materials shortly.",1
+"Application received (Ref: P077) for Embedded Engineer at ByteLabs. Thanks — your submission is recorded.",1
+"Application received (Ref: P078) for Cloud Engineer at NeuralNet. We have your application.",1
+"Application received (Ref: P079) for Software Engineering Intern at AlgoSphere. Your materials are under review.",1
+"Application received (Ref: P080) for Software Engineer at DataWave. We will contact you if shortlisted.",1
+"Application received (Ref: P081) for Machine Learning Engineer at InfraTech. Thank you for applying.",1
+"Application received (Ref: P082) for Data Engineer at AppForge. Your submission has been logged.",1
+"Application received (Ref: P083) for Frontend Engineer at NetSecure. We have received your application.",1
+"Application received (Ref: P084) for Backend Engineer at Skyward. Thank you — your application is under review.",1
+"Application received (Ref: P085) for Full Stack Engineer at TechCorp. Your materials are in our queue.",1
+"Application received (Ref: P086) for DevOps Engineer at DevWorks. Application received.",1
+"Application received (Ref: P087) for Site Reliability Engineer at NextGen Labs. We will review your submission.",1
+"Application received (Ref: P088) for QA Engineer at Cloudify. Your application is now in review.",1
+"Application received (Ref: P089) for Mobile Engineer at ByteLabs. Thank you for applying.",1
+"Application received (Ref: P090) for Embedded Engineer at NeuralNet. Your submission has been received.",1
+"Application received (Ref: P091) for Cloud Engineer at AlgoSphere. We will review your profile.",1
+"Application received (Ref: P092) for Software Engineering Intern at DataWave. Thank you — application logged.",1
+"Application received (Ref: P093) for Software Engineer at InfraTech. Your materials have been received.",1
+"Application received (Ref: P094) for Machine Learning Engineer at AppForge. We will be in touch if shortlisted.",1
+"Application received (Ref: P095) for Data Engineer at NetSecure. Your submission is in our system.",1
+"Application received (Ref: P096) for Frontend Engineer at Skyward. Thanks for applying — received.",1
+"Application received (Ref: P097) for Backend Engineer at TechCorp. We have your application.",1
+"Application received (Ref: P098) for Full Stack Engineer at DevWorks. Your submission is under review.",1
+"Application received (Ref: P099) for DevOps Engineer at NextGen Labs. Thank you — we will review.",1
+"Application received (Ref: P100) for Site Reliability Engineer at Cloudify. Your application has been logged.",1
+"Application received (Ref: P101) for QA Engineer at ByteLabs. We will contact you with next steps.",1
+"Application received (Ref: P102) for Mobile Engineer at NeuralNet. Your application is received.",1
+"Application received (Ref: P103) for Embedded Engineer at AlgoSphere. Thank you for applying.",1
+"Application received (Ref: P104) for Cloud Engineer at DataWave. We have your submission.",1
+"Application received (Ref: P105) for Software Engineering Intern at InfraTech. Your materials are under review.",1
+"Application received (Ref: P106) for Software Engineer at AppForge. We will review and follow up.",1
+"Application received (Ref: P107) for Machine Learning Engineer at NetSecure. Thank you — application received.",1
+"Application received (Ref: P108) for Data Engineer at Skyward. Your submission has been recorded.",1
+"Application received (Ref: P109) for Frontend Engineer at TechCorp. We will review your profile.",1
+"Application received (Ref: P110) for Backend Engineer at DevWorks. Your application is in our queue.",1
+"Application received (Ref: P111) for Full Stack Engineer at NextGen Labs. We have received your materials.",1
+"Application received (Ref: P112) for DevOps Engineer at Cloudify. Thank you — we'll be in touch.",1
+"Application received (Ref: P113) for Site Reliability Engineer at ByteLabs. Your application has been received.",1
+"Application received (Ref: P114) for QA Engineer at NeuralNet. We will review your submission.",1
+"Application received (Ref: P115) for Mobile Engineer at AlgoSphere. Thank you for applying — received.",1
+"Application received (Ref: P116) for Embedded Engineer at DataWave. Your materials are logged.",1
+"Application received (Ref: P117) for Cloud Engineer at InfraTech. We will contact you if shortlisted.",1
+"Application received (Ref: P118) for Software Engineering Intern at AppForge. Your submission is recorded.",1
+"Application received (Ref: P119) for Software Engineer at NetSecure. Thank you — application received.",1
+"Application received (Ref: P120) for Machine Learning Engineer at Skyward. We have your application.",1
+"Application received (Ref: P121) for Data Engineer at TechCorp. Your submission has been logged.",1
+"Application received (Ref: P122) for Frontend Engineer at DevWorks. We will review your materials.",1
+"Application received (Ref: P123) for Backend Engineer at NextGen Labs. Thank you for applying.",1
+"Application received (Ref: P124) for Full Stack Engineer at Cloudify. Your application is received.",1
+"Application received (Ref: P125) for DevOps Engineer at ByteLabs. We will be in touch with updates.",1
+"Application received (Ref: P126) for Site Reliability Engineer at NeuralNet. Your submission is under review.",1
+"Application received (Ref: P127) for QA Engineer at AlgoSphere. We have logged your application.",1
+"Application received (Ref: P128) for Mobile Engineer at DataWave. Thank you — we'll review it.",1
+"Application received (Ref: P129) for Embedded Engineer at InfraTech. Application received and recorded.",1
+"Application received (Ref: P130) for Cloud Engineer at AppForge. We will evaluate your submission.",1
+"Application received (Ref: P131) for Software Engineering Intern at NetSecure. Your materials are in review.",1
+"Application received (Ref: P132) for Software Engineer at Skyward. Thank you for applying.",1
+"Application received (Ref: P133) for Machine Learning Engineer at TechCorp. Your application has been received.",1
+"Application received (Ref: P134) for Data Engineer at DevWorks. We will review your submission.",1
+"Application received (Ref: P135) for Frontend Engineer at NextGen Labs. Your application is logged.",1
+"Application received (Ref: P136) for Backend Engineer at Cloudify. Thank you — received.",1
+"Application received (Ref: P137) for Full Stack Engineer at ByteLabs. We will contact you if shortlisted.",1
+"Application received (Ref: P138) for DevOps Engineer at NeuralNet. Your materials are in our system.",1
+"Application received (Ref: P139) for Site Reliability Engineer at AlgoSphere. We have your application.",1
+"Application received (Ref: P140) for QA Engineer at DataWave. Thank you — application received.",1
+"Application received (Ref: P141) for Mobile Engineer at InfraTech. Your submission has been recorded.",1
+"Application received (Ref: P142) for Embedded Engineer at AppForge. We will review and follow up.",1
+"Application received (Ref: P143) for Cloud Engineer at NetSecure. Your application is under review.",1
+"Application received (Ref: P144) for Software Engineering Intern at Skyward. We have received your materials.",1
+"Application received (Ref: P145) for Software Engineer at TechCorp. Thank you — we'll review your profile.",1
+"Application received (Ref: P146) for Machine Learning Engineer at DevWorks. Your submission has been received.",1
+"Invoice INV-N001 for cloud hosting — total due $250.00.",0
+"Reminder: Your password will expire in 5 days. Please update it.",0
+"Meeting notes: merging strategy discussion and action items.",0
+"Company newsletter: engineering highlights and tutorials.",0
+"Invoice INV-N005 for consulting services — payment due.",0
+"System alert: elevated CPU usage on node srv-12.",0
+"Reminder: submit your timesheet by Friday.",0
+"Promotion: sign up for premium developer tools.",0
+"Support ticket #SUP-N010 updated — additional logs requested.",0
+"Billing statement INV-N011 for March — amount due $480.00.",0
+"Order confirmation: Device order ORD-N020 has shipped.",0
+"Security alert: new sign-in detected from unknown device.",0
+"Maintenance notice: scheduled downtime Sunday 01:00–03:00 AM.",0
+"Newsletter: product release notes and changelog.",0
+"Reminder: complete your mandatory security training.",0
+"System message: SSL certificate expires in 7 days for api.prod.",0
+"Invoice INV-N020 for software license renewal — due soon.",0
+"Meeting invite: architecture review on Tuesday at 10:30 AM.",0
+"Alert: disk usage exceeded 90% on storage-cluster-3.",0
+"Promotion: referral bonus for introducing new engineers.",0
+"Support update: ticket #SUP-N025 has been escalated.",0
+"Billing notice: automatic payment scheduled for April 1.",0
+"Order update: shipment delayed due to carrier issue.",0
+"Reminder: sync your fork with main branch before merging.",0
+"Newsletter: community forum top discussions.",0
+"System advisory: deprecated API endpoints will be removed next month.",0
+"Invoice INV-N030 — refund issued (REF-N030).",0
+"Security notice: enable MFA for your account.",0
+"Meeting summary: decisions from last sprint planning.",0
+"Promotion: limited-time discount on team plans.",0
+"System alert: memory leak detected in worker process.",0
+"Reminder: register for the internal hackathon.",0
+"Support ticket #SUP-N035 closed — issue resolved.",0
+"Account notice: update your billing details to avoid interruption.",0
+"Order confirmation: hardware purchase PO-N045 processed.",0
+"Invoice INV-N040 for training workshop — due upon receipt.",0
+"System patch: kernel update scheduled for midnight.",0
+"Newsletter: engineering blog — optimization techniques.",0
+"Reminder: finalize your expense report this week.",0
+"Alert: multiple failed login attempts detected.",0
+"Promotion: free trial extended for new users.",0
+"Support: additional details required for ticket #SUP-N050.",0
+"Billing statement INV-N045 for April — $99.00 charge.",0
+"Meeting reminder: product demo today at 11:00 AM.",0
+"System notice: backup completed successfully.",0
+"Newsletter: new learning resources and courses.",0
+"Order update: tracking TRK-N7777 shows out for delivery.",0
+"Invitation: join webinar on cloud security next Wednesday.",0
+"Reminder: confirm travel arrangements for conference next month.",0
+"Alert: SSL handshake failures observed in logs.",0
+"Promotion: early access to beta for select customers.",0
+"Support update: ticket #SUP-N060 assigned to engineering team.",0
+"Billing: your refund has been processed (REF-N061).",0
+"System advisory: CI pipeline changes deployed.",0
+"Newsletter: team wins and milestones.",0
+"Reminder: enroll in benefits before the deadline.",0
+"Invoice INV-N050 for vendor services — payment pending.",0
+"Security alert: suspicious activity flagged on account.",0
+"Meeting agenda: client kickoff call tomorrow.",0
+"Order notification: item backordered, expected next week.",0
+"System update: dependency vulnerability patched.",0
+"Promotion: student discount for developer tools.",0
+"Support: scheduled maintenance windows posted to status page.",0
+"Billing notice: payment method expiring soon.",0
+"Reminder: set up hardware security key for MFA.",0
+"Invoice INV-N061 — receipt attached.",0
+"Alert: network latency increased between regions.",0
+"Newsletter: product roadmap highlights.",0
+"Meeting recap: action items and owners assigned.",0
+"Reminder: back up your workstation prior to upgrade.",0
+"Support message: logs requested for ticket #SUP-N070.",0
+"Order update: delivery rescheduled by carrier.",0
+"Billing: subscription INV-N065 renewal in 10 days.",0
+"System alert: service degradation in region eu-west.",0
+"Promotion: complimentary onboarding for new teams.",0
+"Newsletter: security best practices and tips.",0
+"Reminder: finalize project proposal by Friday.",0
+"Invoice INV-N070 for consultancy — due in 30 days.",0
+"Alert: certificate rotation scheduled for this week.",0
+"Support update: workaround posted for intermittent issue.",0
+"Order confirmation: PO-N089 received and processing.",0
+"Billing: payment failed for INV-N075 — please update method.",0
+"System advisory: API rate limits changed for public endpoints.",0
+"Promotion: join the developer community and earn credits.",0
+"Reminder: complete annual compliance survey by end of month.",0
+"Newsletter: engineering conference recap.",0
+"Support: ticket #SUP-N085 requires additional verification.",0
+"Invoice INV-N080 processed — see attached receipt.",0
+"Alert: unauthorized configuration change detected.",0
+"Meeting notice: budget planning session Friday afternoon.",0
+"Promotion: limited bundle discounts for new customers.",0
+"System notice: legacy service will be sunset next quarter.",0
+"Reminder: sync credentials with SSO provider.",0
+"Order update: partial shipment completed.",0
+"Billing statement INV-N090 for May — $150.00.",0
+"Security update: vulnerability disclosed and patched.",0
+"Newsletter: tips for onboarding new engineers.",0
+"Reminder: RSVP for company town hall next week.",0
+"Support update: ticket #SUP-N095 reassigned to L2.",0
+"Invoice INV-N095 — please review attached invoice.",0
+"Alert: high error rate detected in auth service.",0
+"Promotion: earn referral rewards when you invite peers.",0
+"Meeting follow-up: deployment checklist and owners.",0
+"System advisory: new logging format rolled out.",0
+"Reminder: update your emergency contact information.",0
+"Order confirmation: hardware order INV-N100 shipped.",0
+"Billing: automatic renewal scheduled for subscription INV-N101.",0
+"Support: client onboarding scheduled for next Tuesday.",0
+"Newsletter: monthly resource roundup and tutorials.",0
+"Invoice INV-N105 — refund processed (REF-N105).",0
+"Alert: degraded response times for search API.",0
+"Reminder: change your password every 90 days.",0
+"System message: maintenance window extended by 30 minutes.",0
+"Promotion: discounted training for enterprise teams.",0
+"Support update: escalation resolved for ticket #SUP-N110.",0
+"Billing notice: update billing address to avoid delay.",0
+"Newsletter: product tips for faster development.",0
+"Meeting reminder: design review scheduled for Wednesday.",0
+"Alert: data sync failure between regions — investigating.",0
+"Invoice INV-N112 for professional services — due upon receipt.",0
+"Reminder: clear local caches to see the latest deployment.",0
+"Support: please provide steps to reproduce for ticket #SUP-N115.",0
+"System advisory: planned database maintenance this weekend.",0
+"Promotion: free trial available for new developer accounts.",0
+"Billing: invoice INV-N120 has been paid. Thank you.",0
+"Alert: unusual activity detected on admin console.",0
+"Newsletter: community contributions and open source highlights.",0
+"Reminder: complete onboarding checklist within first week.",0
+"Support update: logs attached to ticket #SUP-N122.",0
+"Invoice INV-N122 — payment scheduled for next billing cycle.",0
+"Order update: delivery expected tomorrow morning.",0
+"System notice: endpoint deprecation warning — migrate soon.",0
+"Promotion: exclusive invite to product preview event.",0
+"Reminder: submit your timesheet and expense claims.",0
+"Support: scheduled downtime for maintenance has completed.",0
+"Billing: your account balance is past due — please pay.",0
+"Alert: configuration drift detected on production fleet.",0
+"Newsletter: security patch notes and recommendations.",0
+"Meeting invite: cross-team sync about platform upgrades.",0
+"Order confirmation: equipment PO-N130 processed.",0
+"Reminder: confirm your attendance for onboarding session.",0
+"Support update: additional diagnostics requested for ticket #SUP-N135.",0
+"Invoice INV-N135 issued — please review and remit payment.",0
+"System message: new feature flag rollout starting today.",0
+"Promotion: limited seats for mentorship program — sign up.",0
+"Alert: storage threshold exceeded on backup volume.",0
+"Reminder: ensure backups are completed before maintenance.",0
+"Billing statement INV-N140 for June: $220.00.",0
+"Support: ticket #SUP-N140 has been resolved — please verify.",0
+"System advisory: upgrade to latest SDK recommended.",0
+"Newsletter: team spotlight — interviews with engineers.",0
+"Reminder: update your public SSH key in the portal.",0
+"Invoice INV-N145 — automatic reconciliation complete.",0
+"Support update: root cause analysis attached to ticket #SUP-N145.",0
+"Order update: partial refund issued for order ORD-N150.",0
