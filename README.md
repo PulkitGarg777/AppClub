@@ -4,6 +4,7 @@ This repository contains:
 // Backend (FastAPI) + Gmail parser + React frontend (minimal) + TF-IDF training script
 
 ## Structure
+
 - backend/app.py : FastAPI backend (SQLite)
 - gmail_parser.py : Gmail ingestion script (OAuth)
 - frontend/ : Minimal React scaffold (src/App.jsx, etc.)
@@ -12,6 +13,7 @@ This repository contains:
 - requirements.txt, requirements_gmail.txt : Install dependencies for backend and Gmail script
 
 ## Quick start (dev)
+
 1. Backend:
    - python -m venv venv && source venv/bin/activate
    - pip install -r requirements.txt
@@ -28,12 +30,14 @@ This repository contains:
    - npm install
    - npm start
 
-## TF-IDF classifier (optional)
+## TF-IDF classifier (For Training)
+
 - Edit/expand data/sample_labels.csv with real examples (application vs non-application)
 - pip install scikit-learn pandas
 - python scripts/train_classifier.py
 
 ## Notes
+
 - This is a personal tool: respect user privacy and Google's OAuth scopes.
 - For production, store tokens securely and encrypt attachment data.
 - See the included Word doc (documentation.docx) for a full workplan and flowcharts.
