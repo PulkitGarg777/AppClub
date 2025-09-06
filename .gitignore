@@ -6,3 +6,4 @@ token.pickle
 /.venv
 /venv
 node_modules
+gmail_applications_export.csv
