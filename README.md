@@ -1,4 +1,4 @@
-# Internship Application Organizer
+# Automated Internship Application Organizer
 
 This repository contains:
 // Backend (FastAPI) + Gmail parser + React frontend (minimal) + TF-IDF training script
