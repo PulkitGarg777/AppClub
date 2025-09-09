@@ -97,12 +97,20 @@ def parse_email_text(subject: str, body: str) -> dict:
 @app.post("/api/applications")
 async def create_application(payload: dict):
     """Create an application entry from JSON payload. Intended for ingestion workers or extensions."""
+    # Handle date parsing for application_date
+    application_date = payload.get("application_date")
+    if application_date and isinstance(application_date, str):
+        try:
+            application_date = datetime.fromisoformat(application_date.replace('Z', '+00:00'))
+        except ValueError:
+            application_date = None
+    
     app_obj = Application(
         company_name=payload.get("company_name"),
         title=payload.get("title"),
         job_id=payload.get("job_id"),
         platform=payload.get("platform"),
-        application_date=payload.get("application_date"),
+        application_date=application_date,
         source_email_id=payload.get("source_email_id"),
         source_url=payload.get("source_url"),
         attachments_json=json.dumps(payload.get("attachments") or []),

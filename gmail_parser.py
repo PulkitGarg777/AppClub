@@ -2,6 +2,7 @@
 
 This script uses Gmail API (OAuth) to search recent messages, detect application confirmations
 using simple heuristics, extract company/title/job-id, and write a CSV export.
+It also sends the parsed data to the backend API for storage in the database.
 
 Instructions:
   1. Create OAuth credentials (Desktop app) in Google Cloud Console -> download credentials.json (make sure to place credentials.json in the same directory as this script)
@@ -10,12 +11,14 @@ Instructions:
 
 Security note: This script uses readonly scope for Gmail. Do not share your token.pickle.
 """
-import os, base64, re, csv, pickle
+import os, base64, re, csv, pickle, requests, json
+from datetime import datetime
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from google.auth.transport.requests import Request
 
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
+BACKEND_API_URL = "http://localhost:8000/api/applications"
 
 job_id_regex = re.compile(r"(?:Req(?:\\.|uisition)?|Requisition|Job\\s*ID|Req#|Requisition\\s*ID|Job\\s*Req)[\\s:]*#?([A-Za-z0-9\\-\\_/]+)", re.I)
 confirmation_phrases = [
@@ -173,6 +176,30 @@ def extract_fields(subject, body):
     
     return result
 
+def send_to_backend_api(application_data):
+    """Send application data to the backend API"""
+    try:
+        payload = {
+            "company_name": application_data.get("company"),
+            "title": application_data.get("title"),
+            "job_id": application_data.get("job_id"),
+            "platform": "Gmail",
+            "application_date": datetime.now().isoformat(),
+            "source_email_id": application_data.get("message_id"),
+            "status": "Applied",
+            "notes": f"Auto-detected from Gmail. Subject: {application_data.get('subject', '')[:100]}"
+        }
+        
+        response = requests.post(BACKEND_API_URL, json=payload, timeout=10)
+        if response.status_code == 200:
+            return True, response.json()
+        else:
+            return False, f"API error: {response.status_code} - {response.text}"
+    except requests.exceptions.ConnectionError:
+        return False, "Backend API not available - make sure the backend server is running"
+    except Exception as e:
+        return False, f"Error sending to API: {str(e)}"
+
 def main():
     try:
         # Try to authenticate
@@ -196,6 +223,9 @@ def main():
         # Process each message
         rows = []
         parsed_count = 0
+        api_success_count = 0
+        api_errors = []
+        
         for i, m in enumerate(messages):
             if i > 0 and i % 20 == 0:
                 print(f"Processed {i}/{len(messages)} messages...")
@@ -223,6 +253,16 @@ def main():
                 rows.append(row)
                 parsed_count += 1
                 
+                # Send to backend API
+                success, result = send_to_backend_api(row)
+                if success:
+                    api_success_count += 1
+                    print(f"✓ Sent to API: {row.get('company', 'Unknown')} - {row.get('title', 'Unknown')}")
+                else:
+                    api_errors.append(f"Failed to send {row.get('company', 'Unknown')}: {result}")
+                    if len(api_errors) <= 3:  # Only print first few errors to avoid spam
+                        print(f"✗ API Error: {result}")
+                
             except Exception as e:
                 print(f"Error processing message {m['id']}: {e}")
                 continue
@@ -245,6 +285,16 @@ def main():
         with_company = sum(1 for r in rows if r.get('company'))
         if rows:
             print(f"Company extraction: {with_company}/{len(rows)} ({with_company/len(rows)*100:.1f}%)")
+        
+        # API submission report
+        if parsed_count > 0:
+            print(f"Backend API: {api_success_count}/{parsed_count} successfully sent ({api_success_count/parsed_count*100:.1f}%)")
+            if api_errors and len(api_errors) > 3:
+                print(f"... and {len(api_errors) - 3} more API errors")
+            if api_success_count > 0:
+                print(f"✓ {api_success_count} applications are now available in the React frontend!")
+        else:
+            print("No application emails found to send to API.")
         
     except FileNotFoundError as e:
         print(f"Error: {e}")
